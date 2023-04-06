@@ -6,9 +6,6 @@ addNote.innerHTML = (localStorage.getItem('Notes') || '');
 
 input.focus();
 
-
-
-
 btn.addEventListener('click', () => {
     console.log(input.value);
     addNote.innerHTML += `
