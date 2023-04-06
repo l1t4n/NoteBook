@@ -1,0 +1,74 @@
+.top-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 100%;
+    font-family: Impact;
+    margin-bottom: 20px;
+}
+
+
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#btnNote {
+    font-size: 20px;
+}
+
+.middle-text {
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+#input {
+    font-size: 20px;
+    width: 99%;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#addedNotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notes-wrapper {
+    border: 3px solid rgb(38, 7, 179);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    height: auto;
+    margin-bottom: 5px;
+    
+}
+
+.note {
+    width: 98%;
+}
+
+.removeNote {
+    color: red;
+    font-family: arial;
+    cursor: pointer;
+    background: none;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
